@@ -12,9 +12,9 @@ export default function Home() {
         </div>
 
         <div className="text-2xl  lg:text-3xl font-extrabold tracking-[0.2rem] pt-8">PROJECT MANAGEMENT CONSULTANT - COORDINATOR</div>
-        <Image src={"/mall.webp"} layout="responsive" objectFit="cover" width={1000} height={1000} alt="mall image" className="pb-2"/>
+        <Image src={"/mall.webp"} layout="responsive" objectFit="cover" width={1000} height={1000} alt="mall image" className="pb-2" draggable="false"/>
         <div className="text-2xl  lg:text-3xl font-extrabold tracking-[0.2rem] pt-8">TURN KEY PROJECTS</div>
-        <Image src={"/residence.webp"} layout="responsive" objectFit="cover" width={1000} height={1000} alt="mall image" className="pb-2"/>
+        <Image src={"/residence.webp"} layout="responsive" objectFit="cover" width={1000} height={1000} alt="mall image" className="pb-2" draggable="false" />
       </div>
 
     </>

@@ -32,7 +32,7 @@ function DesktopNavBar() {
 
                 <div className="flex h-full sm:gap-x-8  md:gap-x-16 lg:gap-x-32 ">
                     <div className="flex justify-between items-center">
-                        <Image src="/dreams.webp" width="100" height="100" alt="dreams logo" />
+                        <Image src="/dreams.webp" width="100" height="100" alt="dreams logo" draggable="false" />
                         <div className="text-3xl text-blue-950 font-medium select-none">Dreams</div>
                     </div>
                     {items.map(item => (

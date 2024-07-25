@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function PersonCard() {
     return (
-        <div className="bg-[#8eb2d1] max-w-4xl w-max p-4 text-[#20303c] rounded-xl">
+        <div className="bg-[#8eb2d1] sm:max-w-fit lg:max-w-4xl w-max p-4 text-[#20303c] rounded-xl overflow-hidden   ">
             <div className="flex justify-normal gap-4 pb-4">
 
                 <Image src="/photo.webp" width="300" height="300" alt="Image" className="rounded-2xl pb-2" />

@@ -1,0 +1,12 @@
+.projectCard {
+    transition: background 0.3s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent; /* Ensure no default background color */
+}
+
+.projectCard:hover {
+    background-image: none !important; /* Ensure the background image is removed */
+    background-color: rgb(119, 213, 245) !important; /* The solid background color you want on hover */
+    opacity: 1; /* Ensure full opacity on hover */
+}

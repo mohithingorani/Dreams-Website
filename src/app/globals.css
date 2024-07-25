@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.project-card {
+    transition: background 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    background-image: none;
+    background-color: #5c81a0; /* The solid background color you want on hover */
+}

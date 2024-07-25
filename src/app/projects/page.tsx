@@ -20,7 +20,11 @@ export default function Projects() {
     );
 }
 
-export function ProjectCard({ text, bgImage }: { text: string, bgImage: string }) {
+interface ProjectCardProps {
+    text : string,
+    bgImage : string
+}
+function ProjectCard({ text, bgImage }: ProjectCardProps) {
     return (
         <div
             className={`${styles.projectCard} w-full max-w-lg px-2 py-12 lg:px-12 text-center lg:text-xl lg:py-24 rounded-md text-white lg:font-semibold select-none font-semibold relative`}
